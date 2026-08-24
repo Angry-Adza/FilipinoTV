@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#000000">
+
+  <!-- iPhone PWA support -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="apple-touch-icon" href="icon-192.png">
+
+  <meta charset="UTF-8">
+  <title>PH Sports & Entertainment</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+  <script src="wasm-player.js"></script> <!-- your WASM player bundle -->
+</head>
+<body>
+  <div class="app">
+    <header class="app-header">
+      <h1>PH Entertainment & Live Sports</h1>
+      <p>Local Player (by Angry Adza)</p>
+    </header>
+
+    <nav class="tabs">
+	  <button class="tab-button active" data-tab="ent">Entertainment</button>
+	  <button class="tab-button" data-tab="ph">PH Sports</button>
+	  <button class="tab-button" data-tab="intl">International Sports</button>
+    </nav>
+
+    <main class="tab-content">
+       
+	   <!-- Entertainment -->
+      <section id="tab-ent" class="tab-panel active">
+        <h2>Entertainment</h2>
+
+        <h3>PH Entertainment</h3>
+        <div id="ent-ph" class="channel-list"></div>
+
+        <h3>International Entertainment</h3>
+        <div id="ent-intl" class="channel-list"></div>
+
+        <h3>VOD (Movies, Series, Kids, Docs, Music, Religious)</h3>
+        <div id="ent-vod" class="vod-grid"></div>
+      </section>
+	  
+	  <!-- PH Sports -->
+      <section id="tab-ph" class="tab-panel">
+        <h2>PH Sports Schedule</h2>
+        <div id="ph-schedule" class="match-list"></div>
+      </section>
+
+      <!-- International Sports -->
+      <section id="tab-intl" class="tab-panel">
+        <h2>International Sports Schedule</h2>
+        <div id="intl-schedule" class="match-list"></div>
+      </section>
+     
+    </main>
+
+	<section class="player-section">
+	  <h2>Player</h2>
+	  <p id="current-title">No stream selected</p>
+
+	  <div class="player-wrapper">
+		<canvas id="wasmCanvas"></canvas>
+		<video id="video" playsinline></video>
+	  </div>
+
+	  <div class="player-controls">
+		<button id="btn-play-pause">Play</button>
+		<button id="btn-speed-down">0.5×</button>
+		<button id="btn-speed-normal">1×</button>
+		<button id="btn-speed-up">1.5×</button>
+
+		<select id="quality-select">
+		  <option value="auto">Auto</option>
+		  <!-- levels will be populated dynamically -->
+		</select>
+	  </div>
+	</section>
+
+  </div>
+
+  <script type="module" src="app.js"></script>
+  <script>
+	if ("serviceWorker" in navigator) {
+	navigator.serviceWorker.register("/service-worker.js");
+	}
+  </script>
+
+</body>
+</html>
+
