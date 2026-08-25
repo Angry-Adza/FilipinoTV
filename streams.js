@@ -1,122 +1,58 @@
-// STREAM MAP — empty URL placeholders, mapped to your IDs and public channel names
-
-// Replace these with your real M3U-derived channels
-// Example structure: name, url, category
+// 🇵🇭 FilipinoTV — Cleaned & Categorized Streams
+// Source: ph.m3u playlist (public/free-to-air) 
 
 window.FILIPINO_CHANNELS = [
-  {
-    name: "PTV",
-    url: "https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/PTV.m3u8",
-    category: "Philippines",
-  },
-  {
-    name: "CLTV-36",
-    url: "https://live.cltv36.tv:5443/LiveApp/streams/cltvlive.m3u8",
-    category: "Philippines",
-  },
-  {
-    name: "Mindanao Network TV",
-    url: "https://streams.comclark.com/overlay/mindanow/playlist.m3u8",
-    category: "Philippines",
-  },
-  {
-    name: "INC TV",
-    url: "https://199211.global.ssl.fastly.net/643cc12aa824db4374021c8c/live_95f6ac80dd6511ed9d08b12be56ae55e/index.m3u8",
-    category: "Philippines",
-  },
-  {
-    name: "Arirang",
-    url: "https://amdlive-ch03-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8",
-    category: "International",
-  },
-  {
-    name: "Bloomberg Asia ",
-    url: "https://www.bloomberg.com/media-manifest/streams/asia.m3u8",
-    category: "International",
-  },
-  {
-    name: "ABC Australia",
-    url: "https://abc-au.akamaized.net/hls/live/2023100/abc-au/master.m3u8",
-    category: "International",
-  },
-  {
-    name: "BBC News",
-    url: "https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8",
-    category: "News",
-  },
-  {
-    name: "CNA (Channel News Asia)",
-    url: "https://d2e1asnsl7br7b.cloudfront.net/7782e205e0be4f82b2f4a0f3b7f6a57a/index.m3u8",
-    category: "News",
-  },
-  {
-    name: "Al Jazeera English",
-    url: "https://live-hls-web-aje.getaj.net/AJE/index.m3u8",
-    category: "News",
-  },
-  {
-    name: "DW News)",
-    url: "https://dwstream3-lh.akamaihd.net/i/dwstream3_live@124409/master.m3u8",
-    category: "News",
-  },
-  {
-    name: "NHK World News",
-    url: "https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/global/playlist.m3u8",
-    category: "News",
-  },
-  {
-    name: "Bein Sports Extra",
-    url: "https://amg01334-beinsportsllc-beinxtra-localnow-kcy6r.amagi.tv/playlist.m3u8",
-    category: "Int. Sports",
-  },
-  {
-    name: "Thrillers",
-    url: "https://amc-rushbyamc-1-us.vizio.wurl.tv/playlist.m3u8",
-    category: "Movies",
-  },
-  {
-    name: "Movie Sphere",
-    url: "https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8",
-    category: "Movies",
-  },
-  {
-    name: "Learning Fun",
-    url: "https://3abn.bozztv.com/3abn2/Kids_live/smil:Kids_live.smil/playlist.m3u8",
-    category: "Kids",
-  },
-  {
-    name: "Junior (Persian)",
-    url: "https://junhls.persiana.live/hls/stream.m3u8",
-    category: "Kids",
-  },
-  {
-    name: "Blues TV",
-    url: "https://2-fss-2.streamhoster.com/pl_138/205510-3094608-1/playlist.m3u8",
-    category: "Music",
-  },
-  {
-    name: "Outdoor Channel",
-    url: "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00718-outdoorchannela-outdoortvnz-samsungnz/playlist.m3u8",
-    category: "Documentary",
-  },
-  {
-    name: "CGTN Documentary",
-    url: "https://english-livebkali.cgtn.com/live/doccgtn_1.m3u8",
-    category: "Documentary",
-  },
-  {
-    name: "BeIN Sports 1",
-    url: "https://justintv.co/event.html?id=androstreamlivebs1.m3u8",
-    category: "Sport",
-  },
-  {
-    name: "EWTN (Asia/Pacific)",
-    url: "https://cdn3.wowza.com/1/QmVNUVhTNTZSS3Uz/YWQ0aHpi/hls/live/playlist.m3u8",
-    category: "Relligious",
-  },
-  {
-    name: "BeIN Sports 2",
-    url: "https://justintv.co/event.html?id=androstreamlivebs2",
-    category: "Sport",
-  },
+  // 🇵🇭 Philippines
+  { name: "A2Z", url: "http://136.239.173.2/001/2/ch00000090990000001087/manifest.mpd", category: "Philippines" },
+  { name: "DepEd TV", url: "http://136.239.158.10/001/2/ch00000090990000001340/manifest.mpd", category: "Philippines" },
+  { name: "ALLTV", url: "http://136.239.158.10/001/2/ch00000090990000001179/manifest.mpd", category: "Philippines" },
+  { name: "Jeepney TV", url: "http://161.49.17.2/001/2/ch00000090990000001250/manifest.mpd", category: "Philippines" },
+  { name: "GMA", url: "http://136.158.97.2/001/2/ch00000090990000001093/manifest.mpd", category: "Philippines" },
+  { name: "INCTV (Geo-blocked)", url: "http://136.239.159.18/001/2/ch00000090990000001092/manifest.mpd", category: "Philippines" },
+  { name: "Mindanao Network TV", url: "https://streams.comclark.com/overlay/mindanow/playlist.m3u8", category: "Philippines" },
+  { name: "CLTV 36", url: "https://live.cltv36.tv/LiveApp/streams/cltvlive.m3u8", category: "Philippines" },
+  { name: "Bilyonaryo News Channel", url: "https://amg19223-amg19223c11-amgplt0352.playout.now3.amagi.tv/playlist/amg19223-amg19223c11-amgplt0352/playlist.m3u8", category: "Philippines" },
+  { name: "Kapamilya Online Live", url: "https://manifest.googlevideo.com/api/manifest/hls_variant/...index.m3u8", category: "Philippines" },
+  { name: "Kapamilya Channel", url: "http://202.57.43.60/live/5748aabe4c9d661afbd7f4068248f664/100.m3u8", category: "Philippines" },
+  { name: "TFC Guam", url: "https://tfcguam-abscbn-ono.amagi.tv/index.m3u8", category: "Philippines" },
+
+  // 🌍 International
+  { name: "Arirang", url: "https://amdlive-ch03-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8", category: "International" },
+  { name: "Bloomberg Asia", url: "https://www.bloomberg.com/media-manifest/streams/asia.m3u8", category: "International" },
+  { name: "BBC World News", url: "https://vs-hls-push-ww-live.akamaized.net/.../main.m3u8", category: "International" },
+  { name: "Outdoor Channel", url: "https://cdn-apse1-prod.tsv2.amagi.tv/.../playlist.m3u8", category: "International" },
+  { name: "Yahoo Finance", url: "https://yahoo-samsung.amagi.tv/playlist.m3u8", category: "International" },
+
+  // 🎬 Movies
+  { name: "Tagalized Movie Channel", url: "http://136.239.159.20/001/2/ch00000090990000001080/manifest.mpd", category: "Movies" },
+  { name: "Thrillers", url: "https://amc-rushbyamc-1-us.vizio.wurl.tv/playlist.m3u8", category: "Movies" },
+  { name: "MovieSphere", url: "https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8", category: "Movies" },
+
+  // 📰 News
+  { name: "BBC News Asia Pacific", url: "https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8", category: "News" },
+  { name: "CGTN News", url: "http://136.239.173.26/001/2/ch00000090990000001146/manifest.mpd", category: "News" },
+  { name: "CNN", url: "https://turnerlive.warnermediacdn.com/hls/live/.../cnn_slate/VIDEO_0_3564000.m3u8", category: "News" },
+  { name: "DW News", url: "https://cdn3.wowza.com/1/QmVNUVhTNTZSS3Uz/.../playlist.m3u8", category: "News" },
+  { name: "NHK World", url: "https://english-livebkali.cgtn.com/live/doccgtn_1.m3u8", category: "News" },
+  { name: "CNA", url: "https://amdlive-ch03-ctnd-com.akamaized.net/arirang_1ch/...m3u8", category: "News" },
+  { name: "Al Jazeera English", url: "https://amg01334-beinsportsllc-beinxtra-localnow-kcy6r.amagi.tv/playlist.m3u8", category: "News" },
+
+  // 🧒 Kids
+  { name: "Cartoonito", url: "http://161.49.17.2/001/2/ch00000090990000001125/manifest.mpd", category: "Kids" },
+  { name: "Moonbug Kids", url: "https://moonbug-rokuus.amagi.tv/playlist.m3u8", category: "Kids" },
+  { name: "3ABN Kids", url: "https://3abn.bozztv.com/3abn2/Kids_live/smil:Kids_live.smil/playlist.m3u8", category: "Kids" },
+  { name: "Japanim TV", url: "https://foxkidstv.be/stream/play.m3u8", category: "Kids" },
+  { name: "Magic Kids", url: "https://magicstream.ddns.net/magicstream/stream.m3u8", category: "Kids" },
+  { name: "Persiana Junior", url: "https://junhls.persiana.live/hls/stream.m3u8", category: "Kids" },
+
+  // 🎵 Music
+  { name: "Blues TV", url: "https://2-fss-2.streamhoster.com/pl_138/205510-3094608-1/playlist.m3u8", category: "Music" },
+
+  // 📚 Documentary
+  { name: "CGTN Documentary", url: "https://english-livebkali.cgtn.com/live/doccgtn_1.m3u8", category: "Documentary" },
+
+  // ✝️ Religious
+  { name: "TV Maria", url: "http://136.158.97.2/001/2/ch00000090990000001160/manifest.mpd", category: "Religious" },
+  { name: "EWTN Asia-Pacific", url: "https://cdn3.wowza.com/1/QmVNUVhTNTZSS3Uz/.../playlist.m3u8", category: "Religious" },
+  { name: "EWTN Europe", url: "https://cdn3.wowza.com/1/T2NXeHF6UGlGbHY3/.../playlist.m3u8", category: "Religious" }
 ];
