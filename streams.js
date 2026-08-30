@@ -43,7 +43,8 @@ window.FILIPINO_CHANNELS = [
   { name: "3ABN Kids", url: "https://3abn.bozztv.com/3abn2/Kids_live/smil:Kids_live.smil/playlist.m3u8", category: "Kids" },
   { name: "Japanim TV", url: "https://foxkidstv.be/stream/play.m3u8", category: "Kids" },
   { name: "Magic Kids", url: "https://magicstream.ddns.net/magicstream/stream.m3u8", category: "Kids" },
-  { name: "Persiana Junior", url: "https://junhls.persiana.live/hls/stream.m3u8", category: "Kids" },
+  { name: "ABC Kids Australia", url: "https://c.mjh.nz/abc-kids.m3u8", category: "Kids" },
+  { name: "Mr. Bean Animated (UK)", url: "https://amg00627-amg00627c23-samsung-au-4110.playouts.now.amagi.tv/playlist.m3u8", category: "Kids" },
 
   // 🎵 Music
   { name: "Blues TV", url: "https://2-fss-2.streamhoster.com/pl_138/205510-3094608-1/playlist.m3u8", category: "Music" },
@@ -53,6 +54,5 @@ window.FILIPINO_CHANNELS = [
 
   // ✝️ Religious
   { name: "TV Maria", url: "http://136.158.97.2/001/2/ch00000090990000001160/manifest.mpd", category: "Religious" },
-  { name: "EWTN Asia-Pacific", url: "https://cdn3.wowza.com/1/QmVNUVhTNTZSS3Uz/.../playlist.m3u8", category: "Religious" },
-  { name: "EWTN Europe", url: "https://cdn3.wowza.com/1/T2NXeHF6UGlGbHY3/.../playlist.m3u8", category: "Religious" }
+  { name: "EWTN Asia-Pacific", url: "https://cdn3.wowza.com/1/QmVNUVhTNTZSS3Uz/.../playlist.m3u8", category: "Religious" }
 ];
