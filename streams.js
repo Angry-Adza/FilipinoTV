@@ -14,7 +14,7 @@ window.FILIPINO_CHANNELS = [
   { name: "Bilyonaryo News Channel", url: "https://amg19223-amg19223c11-amgplt0352.playout.now3.amagi.tv/playlist/amg19223-amg19223c11-amgplt0352/playlist.m3u8", category: "Philippines" },
   { name: "Kapamilya Online Live", url: "https://manifest.googlevideo.com/api/manifest/hls_variant/...index.m3u8", category: "Philippines" },
   { name: "Kapamilya Channel", url: "http://202.57.43.60/live/5748aabe4c9d661afbd7f4068248f664/100.m3u8", category: "Philippines" },
-  { name: "TFC Guam", url: "https://tfcguam-abscbn-ono.amagi.tv/index.m3u8", category: "Philippines" },
+  { name: "Wiggles", url: "https://iview.abc.net.au/show/ready-steady-wiggle/series/8/video/ZW4701A052S00", category: "Philippines" },
 
   // 🌍 International
   { name: "Arirang", url: "https://amdlive-ch03-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8", category: "International" },
